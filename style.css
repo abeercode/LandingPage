@@ -107,6 +107,9 @@ header ul {
 .div2 {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    margin: 100px 0px;
+    padding-bottom: 50px;
 
 
 }
@@ -117,10 +120,34 @@ header ul {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    padding-bottom: 45px;
 }
 
 .images {
-    display: flex;
-    flex-direction: row;
 
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+
+}
+.images img {
+
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 4px solid #3882f6  ;
+    border-radius: 12px;
+}
+.images > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    color: #586b91;
 }
