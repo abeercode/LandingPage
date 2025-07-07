@@ -53,8 +53,8 @@ ul {
 
     align-items: center;
     /* vertically center items */
-    padding: 100px 200px;
-        margin: 100px;
+    padding: 100px 150px;
+
 
 
 }
@@ -66,9 +66,21 @@ ul {
 
     justify-content: space-between;
     gap: 10px;
+            margin: 50px;
 
 
 }
+
+
+.div1 img {
+
+
+    width: 500px;
+    height: auto;
+
+
+}
+
 
 .texts h1 {
 
@@ -79,16 +91,16 @@ ul {
 }
 
 #button {
-    box-sizisng: border-box;
+    box-sizing: border-box;
     background-color: #3882f6;
     color: #e5e7eb;
     font-weight: 500;
-    border-radius: 15px;
+    border-radius: 12px;
     display: flex;
     text-align: center;
     justify-content: center;
-    padding: 10px;
-    width: 90px;
+    padding: 8px;
+    width: 120px;
 }
 
 /* .div1 h3{
@@ -121,10 +133,3 @@ list-style: none;
 
 
 
-.div1 img {
-
-
-    width: 400px;
-    height: auto;
-
-}
