@@ -151,3 +151,28 @@ header ul {
     max-width: 200px;
     color: #586b91;
 }
+
+
+/* div 3 */
+
+.div3{
+    background-color: #e5e7eb;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+
+}
+
+.div3 p{
+
+
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+#snoopy{
+
+    font-size: 18px;
+    text-align: right;
+}
