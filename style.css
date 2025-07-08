@@ -179,3 +179,49 @@ header ul {
     text-align: right;
     font-weight: bold;
 }
+
+/* div 4 */
+
+.div4{
+
+    box-sizing: border-box;
+    display: flex;
+    padding: 100px 150px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+
+}
+
+.blue{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 50px 20px;
+    width: 940px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fline{
+font-size: 24px;
+font-weight: 700;
+
+
+}
+#sline{
+
+    font-size: 18px;
+}
+
+.right{
+    font-size: 18px;
+    padding: 8px 30px;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+
