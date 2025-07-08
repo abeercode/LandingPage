@@ -133,6 +133,7 @@ header ul {
     gap: 30px;
 
 }
+
 .images img {
 
     width: 150px;
@@ -140,10 +141,11 @@ header ul {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    border: 4px solid #3882f6  ;
+    border: 4px solid #3882f6;
     border-radius: 12px;
 }
-.images > div {
+
+.images>div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,25 +157,25 @@ header ul {
 
 /* div 3 */
 
-.div3{
+.div3 {
     background-color: #e5e7eb;
     display: flex;
 
     flex-direction: column;
     padding: 90px 180px;
- 
+
 }
 
-.div3 h1{
+.div3 h1 {
 
 
     font-size: 36px;
     color: #1F2937;
-    font-style:italic;
+    font-style: italic;
     font-weight: 200;
 }
 
-#snoopy{
+#snoopy {
     color: #1F2937;
     font-size: 18px;
     text-align: right;
@@ -182,7 +184,7 @@ header ul {
 
 /* div 4 */
 
-.div4{
+.div4 {
 
     box-sizing: border-box;
     display: flex;
@@ -194,7 +196,7 @@ header ul {
 
 }
 
-.blue{
+.blue {
     box-sizing: border-box;
     display: flex;
     background-color: #3882f6;
@@ -205,18 +207,19 @@ header ul {
     align-items: center;
 }
 
-#fline{
-font-size: 24px;
-font-weight: 700;
+#fline {
+    font-size: 24px;
+    font-weight: 700;
 
 
 }
-#sline{
+
+#sline {
 
     font-size: 18px;
 }
 
-.right{
+.right {
     font-size: 18px;
     padding: 8px 30px;
     border: 2px solid #e5e7eb;
@@ -224,4 +227,13 @@ font-weight: 700;
     font-weight: 400;
 }
 
+.footer{
+    background-color: #1F2937;
 
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 16px;
+    padding:34px;
+
+}
