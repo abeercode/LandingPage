@@ -158,21 +158,23 @@ header ul {
 .div3{
     background-color: #e5e7eb;
     display: flex;
-    height: 300px;
-    flex-direction: column;
 
+    flex-direction: column;
+    padding: 100px 180px;
+ 
 }
 
-.div3 p{
+.div3 h1{
 
 
     font-size: 36px;
     color: #1F2937;
-    font-style: italic;
+    font-style:italic;
+    font-weight: 200;
 }
 
 #snoopy{
-
+    color: #1F2937;
     font-size: 18px;
     text-align: right;
-}
+    font-weight: bold;}
