@@ -160,7 +160,7 @@ header ul {
     display: flex;
 
     flex-direction: column;
-    padding: 100px 180px;
+    padding: 90px 180px;
  
 }
 
@@ -177,4 +177,5 @@ header ul {
     color: #1F2937;
     font-size: 18px;
     text-align: right;
-    font-weight: bold;}
+    font-weight: bold;
+}
